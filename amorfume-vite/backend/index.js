@@ -22,7 +22,7 @@ const url = process.env.FRONTEND_URL
 
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:3000", // Allow only the client app to connect
+    origin: process.env.FRONTEND_URL || "https://amorfume.com", // Allow only the client app to connect
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true, // Allow cookies to be sent from the client
   })
