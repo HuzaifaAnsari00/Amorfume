@@ -18,11 +18,11 @@ const jwt = require('jsonwebtoken');
 connectDB();
 const url = process.env.FRONTEND_URL
 
-const allowedOrigins = [process.env.FRONTEND_URL, 'http://localhost:3000','amorfume-backend.vercel.app','https://amorfume-backend-dxn46zlto-crazy-mes-projects.vercel.app','https://amorfume-backend-git-main-crazy-mes-projects.vercel.app'];
+// const allowedOrigins = [process.env.FRONTEND_URL];
 
 app.use(
   cors({
-    origin: allowedOrigins, // Allow only the client app to connect
+    origin: process.env.FRONTEND_URL || "http://localhost:3000", // Allow only the client app to connect
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true, // Allow cookies to be sent from the client
   })
