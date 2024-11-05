@@ -42,9 +42,8 @@ Create `.env` files in both the root and `client` folders for managing environme
   GOOGLE_CLIENT_ID=your string
   GOOGLE_CLIENT_SECRET=your string
   SESSION_SECRET =your string
-
-RAZORPAY_SECRET=your string
-RAZORPAY_KEY_ID=your string
+  RAZORPAY_SECRET=your string
+  RAZORPAY_KEY_ID=your string
 
 SMTP_HOST=your string
 SMTP_PORT=your string
