@@ -44,11 +44,10 @@ Create `.env` files in both the root and `client` folders for managing environme
   SESSION_SECRET =your string
   RAZORPAY_SECRET=your string
   RAZORPAY_KEY_ID=your string
-
-SMTP_HOST=your string
-SMTP_PORT=your string
-EMAIL_USER=your string
-EMAIL_PASS=your string
+  SMTP_HOST=your string
+  SMTP_PORT=your string
+  EMAIL_USER=your string
+  EMAIL_PASS=your string
   ```
 
 - **Frontend** (`client/.env`):
